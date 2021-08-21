@@ -1,0 +1,37 @@
+{
+  {
+  "store.product": {
+    "children": [
+      "product-list": {
+        "blocks": [
+          "product-list-content-desktop",
+          "product-list-content-mobile",
+          "product-list-content-phone",
+          "product-list-content-tablet"
+        ]
+          
+      },
+       
+     {   
+      
+      "product-list-content-desktop": {
+        "children": ["flex-layout.row#list-row.desktop",
+          "flex-layout.col#image.mobile"
+
+        ]
+      },
+      "flex-layout.row#list-row.desktop": {
+        "children": [
+          "flex-layout.col#image.desktop",
+          "flex-layout.col#main-container.desktop"
+        ],
+        // Preço  dos produtos
+        "product-price": {
+          "props": {
+            "showListPrice": true,
+            "showLabels": false,
+          
+      
+    ]
+  }
+}
